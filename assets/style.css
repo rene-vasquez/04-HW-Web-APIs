@@ -1,0 +1,62 @@
+:root {
+  --purple: #a100f2;
+}
+
+* {
+    font-family: 'Abel', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro_page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.intro_page p {
+  display: flex;
+  font-size: 150%;
+  width: 100%;
+  justify-content: center;
+}
+
+button {
+  font-size: x-large;
+  background-color: var(--purple);
+  color: white;
+  border-radius: 10%;
+}
+
+.question_page {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.prompt {
+display: flex;
+justify-content: center;
+width: 100%;
+}
+
+.answer_choices button {
+  display: flex;
+  margin: 10px 0px 10px 0px;
+}
+
+.highscore_page {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.highscore_page h1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
